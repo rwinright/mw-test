@@ -1,0 +1,13 @@
+.clock{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.clock-section{
+  margin: 3px 0;
+}
+
+.clock-section>span{
+  margin-left: 6px;
+}

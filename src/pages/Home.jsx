@@ -17,7 +17,7 @@ export default function Home() {
     setCaptionText(captionArray[i]);
   }
 
-  useEffect(() => { // Call the handleDogChange to fetch API data on intial load.
+  useEffect(() => { // Call the handleDogChange to fetch API data on componentDidMount
     handleDogChange();
   }, []);
 
